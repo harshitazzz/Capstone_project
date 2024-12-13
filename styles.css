@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,14 +10,129 @@ body{
     height: 100vh;
 }
 header{
-    border: 1.5px solid rgba(255, 255, 255, 0.2);
-    height: 80px;
-    width: 1344px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 30px;
 }
 .nav1{
     display: flex;
     color: white;
     justify-content:space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    align-items: center;
+    gap: 12px;
+}
+.text {
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.Futura{
+    font-size: 42px;
+    font-weight: 700;
+}
+.menu-btn {
+    display: flex;
+    color:#D6DDE6;
+    text-decoration: none;
+    gap: 32px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.container{
+    padding: 48px 75px;
+}
+.main-container{
+    display: flex;
+    border-bottom: 1.5px;
+    padding: 96px 0px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+#welcome-text{
+    color: rgba(214, 221, 230, 1);
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+}
+.image1{
+    border: 1.5px;
+    border-radius: 36px;
+    margin: 20px;
+}
+.row{
+    display: flex;
+    gap: 48px;
+    padding: 48px 0px;
+    justify-content: space-between;
+}
+.alpha{
+    color: white;
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.design{
+    color: white;
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.paragraph{
+    padding: 96px 96px;
+}
+.paragraph p{
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+.paragraph-right{
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;  
+    display: flex; 
+    justify-content: space-between; 
+}
+.paragraph-right p{
+    text-align: left;
+    padding-left: 100px;
+    padding-right:75px;
+}
+.lineimage{
+    padding: 48px 0px;
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+}
+.offer{
+    padding: 48px;
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+}
+.offer>div p{
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+.rowtext{
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    
+}
+.internaloffer{
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+    padding: 8px;
+    text-align: left;
+
 }
