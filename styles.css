@@ -106,6 +106,7 @@ header{
 .lineimage{
     padding: 48px 0px;
     display: flex;
+    flex-wrap: wrap;
     gap: 48px;
     justify-content: space-between;
 }
@@ -115,12 +116,12 @@ header{
     gap: 48px;
     justify-content: space-between;
 }
-.offer>div p{
+/* .offer>div p{
     font-family: "Plus Jakarta Sans",serif;
     font-weight: 700;
     font-size: 28px;
     color: white;
-}
+} */
 .rowtext{
     font-family: "Plus Jakarta Sans",serif;
     font-weight: 500;
@@ -177,6 +178,9 @@ header{
     justify-content: space-between;
     padding: 24px;
 }
+#harshita{
+    margin-top: 0;
+}
 .five-image-collage{
     padding: 48px;
 }
@@ -189,7 +193,34 @@ header{
     font-size: 48px;
     color: rgba(214, 221, 230, 1);
 }
-.inner-logo{
+.div1{
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(214, 221, 230, 1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.4rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div2{
+    width: 89vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     font-family: "Plus Jakarta Sans",serif;
     font-weight: 700;
     font-size: 28px;
@@ -215,7 +246,49 @@ header{
     font-size: 20px;
 }
 
+.offer{
+    /* display:flex;
+    flex-direction: column; */
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    margin-top: 0;
+    line-height: 0;
+}
 
+.web{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Plus Jakarta Sans",serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+.container-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 96px;
+}
 
 
 
